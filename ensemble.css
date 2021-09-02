@@ -1,0 +1,71 @@
+body
+{
+	margin: 10px 0 ;
+	padding: 0 ;
+  padding-top: 5rem;
+	text-align: center ;
+	font: 0.8em "Trebuchet MS", helvetica, sans-serif ;
+	background: rgb(14, 14, 83) ;
+  color:white;
+  height: auto;
+  width: 100%;
+  background-size: cover ;
+  background-position: center;
+  background-color:white;
+  background-image:url(https://image.jeuxvideo.com/medias-md/162809/1628085471-2798-card.jpg);
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+header
+{
+	height: 258px ;
+	background: no-repeat left top ;
+	margin: 0 ;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+	float: left;
+	border-right: 1px solid #bbb;
+  }
+  
+  li:last-child {
+	  border-right: none;
+  }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+footer
+{
+	margin: 0 ;
+	padding-right: 10px ;
+	line-height: 30px ;
+	text-align: right ;
+	color: #8a0 ;
+}
